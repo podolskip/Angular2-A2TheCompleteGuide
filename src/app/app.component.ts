@@ -8,7 +8,6 @@ import  { DatabindingComponent } from './databinding';
   styleUrls: ['./app.component.css'],
   directives: [DatabindingComponent]
 
-  //directives: [OtherComponent, AnotherComponent]
 })
 export class AppComponent {
   title = 'testing configuration of first angular 2 app';
