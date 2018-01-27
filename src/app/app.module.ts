@@ -3,10 +3,11 @@ import { NgModule } from '@angular/core';
 
 
 import { AppComponent } from './app.component';
+import { OtherComponent } from './other/other.component';
 
 
 @NgModule({
-  declarations: [AppComponent],
+  declarations: [AppComponent, OtherComponent],
   imports: [BrowserModule],
   providers: [],
   bootstrap: [AppComponent]
